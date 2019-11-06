@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1617265197899332}
+  m_IsPrefabAsset: 1
+--- !u!1 &1617265197899332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4456679490604600}
+  - component: {fileID: 114138442315551292}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4456679490604600
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617265197899332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80.00534, y: 448.02808, z: -2.3014452}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114138442315551292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617265197899332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22df99f623825b4f8bace5e2fc1a381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - loop: 0
+    name: Gameover
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 649529d0e52eadf48bf46ac940bd68c8, type: 3}
+    source: {fileID: 0}
+  - loop: 1
+    name: Theme
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 40aace8adab1e5c4bbf0364ef77d709a, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Die
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 7cd932cbcdca92a4a8f2452ceec6dd1e, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Eat
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 79a7536df013f314abb621aed6cff337, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Tap
+    Volume: 2
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 649529d0e52eadf48bf46ac940bd68c8, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Colliding
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 44b87e777a11a1147b6d155a34c4ec41, type: 3}
+    source: {fileID: 0}
+  - loop: 0
+    name: Powers
+    Volume: 1
+    Pitch: 1
+    clip: {fileID: 8300000, guid: 7b67ca869d2f7fe46b8537177ab9afd1, type: 3}
+    source: {fileID: 0}
